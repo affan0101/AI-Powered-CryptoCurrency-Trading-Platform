@@ -14,7 +14,7 @@ import java.util.Map;
 @Service
 public class ChatbotServiceImpl implements ChatbotService {
 
-    String GEMENI_API_KEY = "AIzaSyARGCR4dVzxvBnRKDWOTobwJGLyVNpt1nw";
+    String GEMENI_API_KEY = "AIzaSyARGCR4dVzxvBnRKDWOTobwJGLyVNpt1nw"; // Generate Your own API Key
     String COINGECKO_API_KEY = "CG-NMpB4c1YQhyWvCHHacJDgm4N";
 
     private double convertToDouble(Object value) {
